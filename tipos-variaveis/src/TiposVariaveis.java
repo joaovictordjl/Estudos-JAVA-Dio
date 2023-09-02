@@ -1,5 +1,13 @@
 public class TiposVariaveis {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+       //Olhá só o que sei fazer agora, tipos de variáveis. 😁
+        
+       String meuNome = "João Victor";
+       int idade = 20;
+
+        System.out.println(idade);
+        System.out.println(meuNome);
+        
+        
     }
 }
