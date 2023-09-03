@@ -1,4 +1,8 @@
 public class Operadores {
+    /**
+     * @param args
+     * @throws Exception
+     */
     public static void main(String[] args) throws Exception {
         
         //CONCATENAÇÃO
@@ -72,9 +76,40 @@ public class Operadores {
         boolean variavel1=true;
         variavel1= !variavel1;
         System.out.println(variavel1);
-        
 
 
-        
+        //RELACIONAIS
+
+        int numero1= 2;
+        int numero2= 3;
+
+        boolean simNao = numero1 == numero2; // = = igual
+        System.out.println("numero1 é igual a numero2?" + simNao);
+
+        simNao = numero1 < numero2; // menor< ou maior>
+        System.out.println("numero1 é maior que numero2?" + simNao);
+
+        simNao= numero1 != numero2; // ! = diferente
+        System.out.println("numero1 é diferente de numero2?" + simNao);
+
+        simNao= numero1 <= numero2; // < = menor ou igual / > = maior ou igual
+        System.out.println("numero1 é igual ou menor a numero2?" + simNao);
+
+        int notaAluno =4 ;
+
+         if(notaAluno < 5){
+            System.out.println("Aluno reprovado!");
+            }
+            
+         //LÓGICOS
+
+         boolean filha1 = true;
+         boolean filha2 = false;
+
+         if(filha1 && filha2){
+            System.out.println("As duas são minhas verdadeiras filhas");
+         }
+
+         
     }
 }
