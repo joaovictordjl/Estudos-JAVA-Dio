@@ -1,6 +1,5 @@
 public class SmartTv {
    boolean ligada=false;
-   boolean desligada=true;
    int canal =1;
    int volume =25;
 
@@ -27,7 +26,7 @@ public class SmartTv {
    //CANAL DA TV
     public void mudarDeCanal(int novoCanal){
       canal = novoCanal;
-      System.out.println("Canal atual : " + canal);
+      System.out.println("Mudando de canal para : " + canal);
 
    }
     public void subirDeCanal(){

@@ -20,6 +20,8 @@ public class Usuario {
         smartTv.descerDeCanal();
         smartTv.descerDeCanal();
 
+        smartTv.mudarDeCanal(4);
+
         //VOLUME DA TV
 
         smartTv.aumentarVolume();
